@@ -8,7 +8,6 @@ Visualzation methods that help developers to realize the deep network
 git clone https://github.com/jimmylin0979/torchxai.git
 cd torchxai
 
-# TODO
 # install requirements and CVNets package
 pip install -r requirements.txt
 pip install --editable .
@@ -40,8 +39,8 @@ Please have a look on example at [`example/Landscape.ipynb`](./example/Landscape
 
 ## RoadMap
 
-- [ ] Finish setup.py, and register on pypi platform 
-- [ ] Allow project to install with `-e` flags in `pip install` command 
+- [x] Finish setup.py, and register on pypi platform 
+- [x] Allow project to install with `-e` flags in `pip install` command 
 - [ ] Automatic deploy with Github Actions
 - [x] Method CKA
     - [x] Linear-based CKA
