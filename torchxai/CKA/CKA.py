@@ -109,7 +109,7 @@ def visualize(cka_matrix: np.ndarray):
     sns.set_theme()
     ax = sns.heatmap(cka_matrix, vmax=1.0, vmin=0.0, annot=False)
     ax.invert_yaxis()
-    plt.savefig(f"CKA.png")
+    plt.savefig(f"cka.png")
     plt.show()
 
 #  

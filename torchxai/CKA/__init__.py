@@ -1,4 +1,4 @@
-from torchxai.CKA.CKA import CKA, HSIC, visualize, CKA_matrix
+from .cka import *
 
 __all__ = [
     "HSIC", 
