@@ -41,7 +41,7 @@ Please have a look on example at [`example/Landscape.ipynb`](./example/Landscape
 
 - [x] Finish setup.py, and register on pypi platform 
 - [x] Allow project to install with `-e` flags in `pip install` command 
-- [ ] Automatic deploy with Github Actions
+- [x] Automatic deploy with Github Actions
 - [x] Method CKA
     - [x] Linear-based CKA
     - [ ] Kernel-based CKA
