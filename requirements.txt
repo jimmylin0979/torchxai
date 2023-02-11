@@ -9,7 +9,6 @@ torchvision
 tqdm>=4.63.0
 
 # Logging -------------------------------------
-logging 
 
 # Plotting ------------------------------------
 matplotlib>=3.6.2

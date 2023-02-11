@@ -31,7 +31,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install build
         pip install --upgrade setuptools
-        pip install  wheel twine
+        pip install wheel twine
         pip install torch torchvision --extra-index-url https://download.pytorch.org/whl/cpu
         pip install -r requirements.txt
         pip install ez_setup
