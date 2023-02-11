@@ -37,9 +37,6 @@ jobs:
         pip install ez_setup
         pip install --editable .
     
-    - name: Build package
-      run: python -m build
-    
     - name: Test
       run: |
         echo "TODO: Add test command here to make sure testpypi new version is well checked !"
