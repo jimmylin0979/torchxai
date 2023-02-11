@@ -6,11 +6,9 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: Test & Upload a Python Package to TestPyPi Server
+name: Test & Publish a Python Package to TestPyPi Server
 
 on:
-  push:
-    branches: [master]
   release:
     types: [published]
 
@@ -33,12 +31,17 @@ jobs:
         python -m pip install --upgrade pip
         pip install build
         pip install setuptools wheel twine
+        pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cpu
         pip install -r requirements.txt
         python setup.py install
     
     - name: Build package
       run: python -m build
-      
+    
+    - name: Test
+      run: |
+        echo "TODO: Add test command here to make sure testpypi new version is well checked !"
+
     - name: Publish package to TestPyPi
       run: |
         python setup.py sdist
