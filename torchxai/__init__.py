@@ -4,10 +4,12 @@
 
 from .cka import *
 from .landscape import *
+from .erf import *
 from .utils import *
 
 __all__ = [ 
     "cka", 
-    "Landscape", 
+    "landscape", 
+    "erf",
     "utils"
 ]
