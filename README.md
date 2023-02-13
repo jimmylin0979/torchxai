@@ -45,7 +45,7 @@ Reference: NIPS 2016 Understanding the Effective Receptive Field in Deep Convolu
 Receptive field refers to the portion of an input image that a neuron in a CNN is sensitive to. In other words, it represents the area of the input image that contributes to the activation of a particular neuron.  
 The receptive field of a neuron can be visualized as a region in the input image that, when activated, causes the neuron to fire.
 
-Please have a look on example at [`example/ReceptiveField.ipynb`](./example/ERF.ipynb)
+Please have a look on example at [`example/ERF.ipynb`](./example/ERF.ipynb)
 
 ## RoadMap
 
